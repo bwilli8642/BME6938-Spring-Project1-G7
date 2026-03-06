@@ -1,7 +1,7 @@
 # BME6938 Spring Project 1 - Chronic Kidney Disease Prediction
 **Group 7**
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements machine learning models to predict chronic kidney disease (CKD) progression based on patient metrics. The goal is to develop a reliable predictive model that can assist in early detection and intervention.
 
@@ -10,7 +10,7 @@ This project implements machine learning models to predict chronic kidney diseas
 - **Task**: Binary classification for disease risk prediction
 - **Features**: Patient health metrics including laboratory tests and clinical measurements
 
-## 🎯 Objectives
+## Objectives
 
 1. Load and explore the CKD dataset
 2. Perform comprehensive exploratory data analysis (EDA)
@@ -19,7 +19,32 @@ This project implements machine learning models to predict chronic kidney diseas
 5. Compare model performance using clinical metrics
 6. Recommend best model for deployment
 
-## 🤖 Model Implemented
+## Clinical Context
+Chronic kidney disease (CKD) affects millions worldwide. Early prediction allows for:
+- Preventive interventions
+- More Accurate Diagnosis'
+- Treatment optimization
+- Reduction in healthcare costs
+- Improved patient care and outcomes
+
+So this is for professional medical staff to allow for a better diagnosis for patients to lead to a more accurate treatment to the severity of their CKD. 
+
+## Computer Requirements
+- 2+ vCPUs are recommended (1vCPU works just slower)
+- 2GB of RAM with 4 GB being more optimal
+- 1-2 GB free for virtual packages
+- Execution Time: ~1-4 minutes or ~5-8 minutes if OpenML is slow
+
+## Quick Start
+### Installation Instructions:
+(1) The use of Python 3.9 or higher is recommended 
+(2) Open up your codespace to perform
+(3) Upgrade pip if not already up to date (use "python -m pip install --upgrade pip")
+(4) Install Project Dependencies (use "pip install -r requirements.txt")
+### Running the Pipeline
+Simply Run the Jupyter Notebook: Project1_code.ipynb by selecting "Run All" in the UI or simply copy "jupyter nbconvert --to notebook --ex" into terminal to execute all notebook cells. 
+
+## Model Implemented
 
 This project implements and evaluates:
 
@@ -30,7 +55,7 @@ This project implements and evaluates:
 - Early stopping to prevent overfitting
 - L2 regularization for weight constraints
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 Each model is evaluated using clinically relevant metrics:
 
@@ -42,7 +67,7 @@ Each model is evaluated using clinically relevant metrics:
 - **Confusion Matrix**: Breakdown of predictions
 - **Cross-Validation**: 5-fold stratified CV for reliability
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 BME6938-Spring-Project1-G7/
@@ -51,7 +76,7 @@ BME6938-Spring-Project1-G7/
 └── requirements.txt          # Python dependencies (to be created)
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -89,7 +114,7 @@ pip install lightgbm
    - Generate comprehensive evaluation reports
    - Display comparison visualizations
 
-## 📈 Notebook Structure
+## Notebook Structure
 
 The notebook is organized into the following sections:
 
@@ -122,7 +147,7 @@ The notebook is organized into the following sections:
    - Limitations and considerations
    - Future work and enhancements
 
-## 🏥 Clinical Relevance
+## Clinical Relevance
 
 **Why This Matters:**
 
@@ -139,20 +164,19 @@ For CKD prediction, we prioritize:
 2. **Balanced F1-Score**: Maintaining good overall performance
 3. **ROC-AUC**: Strong discriminative ability
 
-## 📝 Key Features
+## Key Features
 
-- ✅ Complete end-to-end ML pipeline
-- ✅ Comprehensive EDA with visualizations
-- ✅ Robust preprocessing with proper train-test split
-- ✅ Multi-Layer Perceptron Neural Network implementation
-- ✅ **Extensively commented code** - every line/section explained
-- ✅ All required evaluation metrics with clinical interpretation
-- ✅ Cross-validation for reliability with stability analysis
-- ✅ Publication-ready visualizations
-- ✅ Detailed clinical interpretation of results
-- ✅ Architecture rationale and parameter explanations
+- Complete end-to-end ML pipeline
+- Comprehensive EDA with visualizations
+- Robust preprocessing with proper train-test split
+- Multi-Layer Perceptron Neural Network implementation
+- Extensively commented code - every line/section explained
+- All required evaluation metrics with clinical interpretation
+- Cross-validation for reliability with stability analysis
+- Detailed clinical interpretation of results
+- Architecture rationale and parameter explanations
 
-## 🔬 Results
+##  Results
 
 Results will be generated when you run the notebook. The notebook includes:
 - Detailed performance metrics for MLP Neural Network
@@ -163,20 +187,20 @@ Results will be generated when you run the notebook. The notebook includes:
 - Comprehensive clinical interpretation of all metrics
 - Stability analysis across CV folds
 
-## 👥 Team
+##  Team
 
 **Group 7** - BME6938 Spring 2026
 
-## 📚 References
+##  References
 
 - OpenML Dataset: https://www.openml.org/d/42972
 - Scikit-learn Documentation: https://scikit-learn.org/
 - XGBoost Documentation: https://xgboost.readthedocs.io/
 
-## 📄 License
+##  License
 
 This project is for educational purposes as part of BME6938 coursework.
 
 ---
 
-**Last Updated**: March 4, 2026
+**Last Updated**: March 6, 2026
