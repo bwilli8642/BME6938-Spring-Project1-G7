@@ -2,9 +2,9 @@
 **Group 7**
 
 ## Team Member Roles:
-Jai Raccioppi: Creator of original .ipynb and README.md files, text edits markdown
-Bryce Williams: Creator of repository, trouble shoot code, edit text markdown
-Megan LeComte: Trouble shoot code and text edits markdown
+- Jai Raccioppi: Creator of original .ipynb and README.md files, text edits markdown
+- Bryce Williams: Creator of repository, trouble shoot code, edit text markdown
+- Megan LeComte: Trouble shoot code and text edits markdown
 
 ## Project Overview
 
