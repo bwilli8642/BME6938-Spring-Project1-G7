@@ -77,8 +77,10 @@ Each model is evaluated using clinically relevant metrics:
 ```
 BME6938-Spring-Project1-G7/
 ├── Project1_code.ipynb      # Main Jupyter notebook with complete analysis
+├── Demo_Model_Interface.ipnyb # The section of the Project1_code notebook that includes plots and visualizations that help interpret model performance.
+├── EDA notebook              # The section of the Project1_code notebook that includes dataset overview, missingness analysis, class/label distributions, feature summaries, and interpretation of findings.
 ├── README.md                 # This file
-└── requirements.txt          # Python dependencies (to be created)
+└── requirements.txt          # Required packages and versions
 ```
 
 ## Getting Started
