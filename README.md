@@ -47,7 +47,8 @@ So this is for professional medical staff to allow for a better diagnosis for pa
 (3) Upgrade pip if not already up to date (use "python -m pip install --upgrade pip")
 (4) Install Project Dependencies (use "pip install -r requirements.txt")
 ### Running the Pipeline
-Simply Run the Jupyter Notebook: Project1_code.ipynb by selecting "Run All" in the UI or simply copy "jupyter nbconvert --to notebook --ex" into terminal to execute all notebook cells. 
+- Simply Run the Jupyter Notebook: Project1_code.ipynb by selecting "Run All" in the UI or simply copy "jupyter nbconvert --to notebook --ex" into terminal to execute all notebook cells. 
+- 'Run All' in the Demo_Notebook.ipynb and EDA notebook.ipynb to confirm the outputs for each. 
 
 ## Model Implemented
 
